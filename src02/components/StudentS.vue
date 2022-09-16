@@ -1,6 +1,6 @@
 <template>
     <div class="demo">
-        <div @click="showName">学生姓名{{name}}</div>
+        <div>学生姓名{{name}}</div>
         <div>学生年龄{{age}}</div>
     </div>
 
@@ -15,11 +15,6 @@
         age:18,
         }
         
-    },
-     methods:{
-      showName(){
-        alert(this.name)
-      }
     }
   }
 </script>

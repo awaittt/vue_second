@@ -1,32 +1,21 @@
 <template>
-        
-        <div>
-        
-            <SchoolS/>
-             <StudentS/>
-
-        </div>
-
+  <div class="container">
+   <SearchS/>
+    <ListS/>
+  </div>
 </template>
 
 <script>
-import SchoolS from './components/SchoolS.vue'
-import StudentS from './components/StudentS.vue'
-
+import SearchS from './components/SearchS'
+import ListS from './components/ListS'
 
 export default {
+    
     name:'App',
     components:{
-        SchoolS,
-        StudentS,
-    },
-    methods:{
-     
+    SearchS,
+    ListS,
     }
-    
 }
 </script>
 
-<style>
-
-</style>

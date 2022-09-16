@@ -1,6 +1,6 @@
 <template>
     <div class="demo">
-        <div @click="showName">学校名称{{name}}</div>
+        <div>学校名称{{name}}</div>
         <div>学生地址{{adress}}</div>
     </div>
 
@@ -15,11 +15,6 @@
         adress:'惠安县',
         }
         
-    },
-    methods:{
-      showName(){
-        alert(this.name)
-      }
     }
   }
   
